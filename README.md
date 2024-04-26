@@ -16,7 +16,9 @@
     * Is the **blank** object mutable or immutable? How can you tell?
 
 ```text
-PUT ANSWER TO #2 HERE
+Blank object is mutable because it's original value
+ can be changed by
+a method
 ```
 
 ```java
@@ -47,7 +49,8 @@ public class Puzzler {
     * Explain how the return values from #3 and #4 differ.
 
 ```text
-PUT ANSWER TO #5 HERE
+The return of 3 is double/variable
+while the return type of 4 is an object
 ```
 
 ```java
@@ -87,14 +90,17 @@ Recall that aliases are two variables that refer to the same object.
     * Put the output in the text block below
 
 ```text
-PUT ANSWER TO #2 HERE
+(5, 8)
+(5, 8)
 ```
 
 3. At the end of main, are p1 and p2 aliased? Why or why not?
     * Put your answer in the text block below
 
 ```text
-PUT ANSWER TO #3 HERE
+No, at the end of main p1 and p2
+they both have the same value
+they refer to different instances
 ```
 
 ```java
@@ -142,7 +148,10 @@ for (int i = 0; i < s.length(); i++) {
     * Screenshot your output and add it to your project as Part3_2.jpg
 3. Generalize the code so that it works on any string.
     * What could you do to generalize it more?
-
+```
+ you could split up the for loop into a 
+ seperate method to generalize it more.
+```
 ## Part 4: Large Numbers
 
 Many encryption algorithms depend on the ability to raise large integers to a power. Below is a method that implements an efficient algorithm for integer exponentiation:
